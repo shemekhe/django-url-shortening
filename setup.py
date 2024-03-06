@@ -7,12 +7,12 @@ def read(fname):
 
 
 setup(
-    name="django-url-shortening",
+    name="django-url-shortening-2",
     version="1.0.0",
-    url='https://github.com/doubletapp/django-url-shortening',
+    url='https://github.com/shkhaksar/django-url-shortening',
     license='BSD',
     description="A URL shortening app for Django.",
-    long_description=read('README.rst'),
+    long_description=open('README.md').read(),
 
     author='Doubletapp',
     author_email='info@doubletapp.ru',
@@ -20,7 +20,7 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
 
-    install_requires=['setuptools', 'six'],
+    install_requires=['six'],
 
     classifiers=[
         'Development Status :: 5 - Production/Stable',
