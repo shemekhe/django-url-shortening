@@ -1,4 +1,5 @@
 import os
+
 from setuptools import setup, find_packages
 
 
@@ -12,7 +13,8 @@ setup(
     url='https://github.com/shkhaksar/django-url-shortening',
     license='BSD',
     description="A URL shortening app for Django.",
-    long_description=open('README.md').read(),
+    long_description=read('README.md'),
+    long_description_content_type='text/markdown',
 
     author='Doubletapp',
     author_email='info@doubletapp.ru',
