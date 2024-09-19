@@ -55,7 +55,7 @@ def invalidate_url(short_id):
 
 class Url(Model):
     short_id = SlugField(primary_key=True)
-    url = URLField(max_length=200)
+    url = URLField(max_length=4096)
     pub_date = DateTimeField(auto_now=True)
     is_expired = BooleanField(default=False)
     redirect_count = IntegerField(default=0)

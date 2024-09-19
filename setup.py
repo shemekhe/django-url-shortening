@@ -9,15 +9,15 @@ def read(fname):
 
 setup(
     name="django-url-shortening-2",
-    version="1.0.0",
+    version="1.0.1",
     url='https://github.com/shkhaksar/django-url-shortening',
     license='BSD',
     description="A URL shortening app for Django.",
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
 
-    author='Doubletapp',
-    author_email='info@doubletapp.ru',
+    author='Shemekhe',
+    author_email='shemekhe@eyeemem.no',
 
     packages=find_packages('src'),
     package_dir={'': 'src'},
